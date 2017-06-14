@@ -1,0 +1,9 @@
+@import 'partials/setup';
+@import 'partials/variables';
+@import 'partials/header';
+@import 'partials/footer';
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
