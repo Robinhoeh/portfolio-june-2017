@@ -1,0 +1,36 @@
+section.skills{
+	background: $primaryColor;
+	display: flex;
+	padding-bottom: 121px;
+	h2{
+		color: $secondaryColor;
+	}
+}
+
+.iconItemOne, .iconItemTwo{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.toolsItem12 img{
+	width: 37%;
+}
+
+.box{
+	font-size: 80px;
+	text-align: center;
+	width: 150px;
+	padding: 16px 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+// .devicon-bootstrap-plain{
+// 	color: #609;
+// }
+
+// .devicon-css3-plain{
+// 	color:#008ecd;
+// }

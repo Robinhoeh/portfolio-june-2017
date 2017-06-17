@@ -1,0 +1,17 @@
+section.map{
+	.backgroundMapImage{
+	background: url("/dev/assets/snazzy-image.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:  400px;
+	&:hover{
+		background: linear-gradient( rgba(0, 0, 0, 0.55), 
+	    rgba(0, 0, 0, 0.45)),  url("/dev/assets/streetcar.jpg");
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    transition: ease in-out .5s;
+	    opacity: .9;
+		}
+	}
+}

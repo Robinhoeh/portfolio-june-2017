@@ -1,0 +1,52 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	font-family: $primaryFont, $secondaryFont;
+}
+p{
+	font-size: 16px;
+	color: $thirdColor;
+}
+h1{
+	font-size: 69px;
+	color: $primaryColor;
+}
+h2{
+	font-size: 40px;
+	text-transform: uppercase;
+}
+h3{
+	font-size: 26px;
+}
+h4{
+	font-size: 24px;
+	text-transform: uppercase;
+}
+h1, h2, h3, h4, h5, h6{
+	padding: 0;
+	margin: 0;
+}
+ul, li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-transform: uppercase;
+}
+
+img{
+	width: 100%;
+	display: block;
+}
+.global-wrapper{
+	width: 1600px;
+}
+.inner-wrapper{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.sectionHeading{
+	margin: 121px 0;
+}
+

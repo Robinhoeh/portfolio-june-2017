@@ -1,0 +1,74 @@
+section.contact{
+	display: flex;
+	h2{
+		color: $primaryColor;
+	}
+}
+
+.contactIconWrapper{
+	display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    .contactItems{
+    	display: flex;
+    	align-items: center;
+    	flex-direction: column;
+    	.fa{
+    		font-size: 36px;
+    		color: $primaryColor;
+    	}
+    }
+}
+
+.contactItems p{
+	font-size: 16px;
+	text-transform: none;
+}
+
+.contactItems hr.miniYellowLine{
+	background: $primaryColor;
+	color: $primaryColor;
+	width: 85px;
+	height: 1px;
+	border: none;
+	display: inline-block;
+	margin: 24px 0 20px;
+}
+
+form{
+	display: flex;
+	.inputBox, .inputBoxTwo{
+		width: 50%;
+	}
+}
+.contactFormItem{
+	display: flex;
+	flex-direction: column;
+	width: 93%;
+	padding-bottom: 12px;
+	label{
+		padding-bottom: 10px;
+		text-transform: uppercase;
+	}
+}
+input{
+	border: 1px solid $thirdColor;
+	padding: 5px;
+}
+
+textarea{
+	height: 169px;
+	border: 1px solid $thirdColor;
+}
+.sendEmailButton{
+	margin: 47px 0 123px 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+ul{
+	font-size: 16px;
+	color: $thirdColor;
+}
+
+ul.menu{
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 104px;
+	margin-top: 31px;
+	li{
+		padding-right: 30px;
+	}
+}
+ul.menu li:last-child{
+	padding-right: 0;
+}

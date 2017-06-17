@@ -1,0 +1,23 @@
+header{
+	height: 695px;
+	background: linear-gradient( rgba(0, 0, 0, 0.55), 
+    rgba(0, 0, 0, 0.45)),  url("/dev/assets/rsz_against-wall-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-position-x: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+menu{
+	text-transform: uppercase;
+	color: $thirdColor;
+	
+}
+.headerBox{
+	position: relative;
+    top: 340px;
+}
+
+

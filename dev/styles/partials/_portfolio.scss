@@ -1,0 +1,33 @@
+section.portfolioGallery{
+	display: flex;
+	h4{
+		color: $primaryColor;
+	}
+}
+
+.portfolioContainer{
+	padding: 0 20px;
+	display: flex;
+	flex-wrap: wrap;
+	.portImageOne, .portImageTwo, .portImageThree, .portImageFour {
+		background-repeat: no-repeat;
+		width: 50%;
+		background-size: cover;
+		box-shadow: 2px 4px 7px darkgrey
+		}
+	}
+
+.proj1Box, .proj2Box, .proj3Box, .proj4Box{
+	display: flex;
+}
+
+.portBox{
+	width: 50%;
+	display: flex;
+	width: 50%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
