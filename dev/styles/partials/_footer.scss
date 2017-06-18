@@ -5,9 +5,17 @@ footer{
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	h3, p{
+	h3, p, {
 		color: $secondaryColor;
+		transition: .3s;
 	}
+}
+footer a{
+	color: $thirdColor;
+}
+footer h3:hover{
+	color: $primaryColor;
+	transition: .3s;
 }
 .socialLinksContainer{
 	ul{
@@ -18,7 +26,13 @@ footer{
 		background: $primaryColor;
 		border-radius: 50%;
 		padding: 10px;
-	}
+		color: $thirdColor;
+		transition: .3s;
+		&:hover{
+			color: $secondaryColor;
+			transition: .3s;
+		}
+		}
 	}
 }
 

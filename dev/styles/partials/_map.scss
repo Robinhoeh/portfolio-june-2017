@@ -5,12 +5,13 @@ section.map{
 	background-repeat: no-repeat;
 	width: 100%;
 	height:  400px;
+	transition: .5s;
 	&:hover{
 		background: linear-gradient( rgba(0, 0, 0, 0.55), 
 	    rgba(0, 0, 0, 0.45)),  url("/dev/assets/streetcar.jpg");
 	    background-repeat: no-repeat;
 	    background-size: cover;
-	    transition: ease in-out .5s;
+	    transition: .5s;
 	    opacity: .9;
 		}
 	}

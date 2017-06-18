@@ -5,6 +5,13 @@ section.contact{
 		color: $primaryColor;
 	}
 }
+.contact a{
+	color: $secondaryColor;
+	&:hover{
+		color: $thirdColor;
+		transition:  .3s ease-in-out;
+	}
+}
 
 .contactIconWrapper{
 	display: flex;
