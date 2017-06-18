@@ -16,6 +16,33 @@ h2{
 	font-size: 40px;
 	text-transform: uppercase;
 }
+
+	/* Portrait tablet and small desktops */
+	@media (max-width: 801px) {
+	    h1{
+	        font-size: 50px;
+	        transition: .3s ease-in-out;
+	        padding: 0 20px;
+	    }
+	        h2{
+	        	font-size: 25px;
+	        	transition: .3s ease-in-out;
+	        }
+	}
+	/* Landscape phones and down */
+	@media (max-width: 649px) {
+		h1{
+			font-size: 30px;
+			transition: .3s ease-in-out;
+			padding: 0 20px;
+		}
+		h2{
+			font-size: 20px;
+			transition: .3s ease-in-out;
+		}
+	}
+
+
 h3{
 	font-size: 26px;
 }

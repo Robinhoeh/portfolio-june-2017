@@ -17,7 +17,31 @@ menu{
 }
 .headerBox{
 	position: relative;
-    top: 340px;
+    top: 380px;
 }
+    /* Portrait tablet and small desktops */
+    @media (max-width: 801px) {
+        header{
+            height: 500px;
+            transition: .3s ease-in-out;
+        }
+        .headerBox{
+            top: 250px;
+        }
+    }
 
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 649px) {
+        header{
+            height: 300px;
+            transition: .3s ease-in-out;
+        }
+        .headerBox{
+            top: 150px;
+        }
+    }
+
+    /* Landscape phones and down */
+    @media (max-width: 480px) {
+    }
 
