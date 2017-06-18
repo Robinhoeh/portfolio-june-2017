@@ -17,3 +17,26 @@ section.map{
 		}
 	}
 }
+
+	/* Portrait tablet and small desktops */
+	@media (max-width: 940px) {
+	}
+
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 768px) {
+		section.map .backgroundMapImage{
+	    height: 300px;
+	    transition: .3s ease-in-out;
+		}
+	}
+
+	/* Landscape phones and down */
+	@media (max-width: 480px) {
+		section.map .backgroundMapImage{
+			height: 150px;
+			transition: .3s ease-in-out;
+		}
+		section.map .sendEmailButton{
+			margin: 47px 0 70px 0;
+		}
+	}

@@ -39,3 +39,27 @@ footer h3:hover{
 ul li{
 	padding: 0 5px;
 }
+
+	/* Portrait tablet and small desktops */
+	@media (max-width: 940px) {
+	}
+
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 768px) {
+		footer{
+			height: 250px;
+			transition: .3s ease-in-out;
+		}
+	}
+
+	/* Landscape phones and down */
+	@media (max-width: 480px) {
+		footer{
+			height: 175px;
+			transition: .3s ease-in-out;
+		}
+	}
+
+
+
+
