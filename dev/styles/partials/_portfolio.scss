@@ -28,6 +28,22 @@ section.portfolioGallery{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	p{
+		padding-top: 20px;
+		text-align: center;
+	}
+}
+
+.techUsed{
+	display:flex;
+	padding-top: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+	p{
+		border: 2px solid $thirdColor;
+		padding: 3px 11px;
+		margin: 10px 14px;
+	}
 }
 
 
