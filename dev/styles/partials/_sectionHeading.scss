@@ -9,5 +9,21 @@
 	}
 }
 
+	/* Portrait tablet and small desktops */
+	@media (max-width: 899px) {
+		.sectionHeading{
+			margin-bottom: 50px;
+		}
+	}
+
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 599px) {
+		margin-top: 36px;
+	}
+
+	/* Landscape phones and down */
+	@media (max-width: 480px) {
+	}
+
 
 
