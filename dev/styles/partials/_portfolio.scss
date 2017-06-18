@@ -19,6 +19,9 @@ section.portfolioGallery{
 
 .proj1Box, .proj2Box, .proj3Box, .proj4Box{
 	display: flex;
+	h2{
+		font-size: 30px;
+	}
 }
 
 .portBox{
@@ -45,5 +48,46 @@ section.portfolioGallery{
 		margin: 10px 14px;
 	}
 }
+
+	/* Portrait tablet and small desktops */
+
+	@media (max-width: 940px){
+		.proj1Box, .proj2Box, .proj3Box, .proj4Box{
+			flex-direction: column;
+			width: 100%;
+			align-items: center;
+			padding-top: 20px;
+		}
+		.portImageOne.portBox, .portImageTwo.portBox, .portImageThree.portBox, .portImageFour.portBox{
+			width: 100%;
+			box-shadow: none;
+		}
+		.portInfoOne.portBox, .portInfoTwo.portBox, .portInfoThree.portBox, .portInfoFour.portBox{
+			width: 70%;
+			padding-top: 40px;
+		}
+		.order3{
+			order: 1;
+		}
+		.order7{
+			order:2;
+		}
+		.portfolioContainer a{
+			box-shadow: 1px 1px 6px black;
+		}
+	}
+	
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 554px) {
+		.proj1Box, .proj2Box, .proj3Box, .proj4Box{
+			h2{
+				font-size: 20px;
+			}
+		}
+	}
+
+	/* Landscape phones and down */
+	@media (max-width: 480px) {
+	}
 
 
