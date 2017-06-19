@@ -34,8 +34,9 @@ button{
 			transition: .3s;
 			box-shadow: 2px 2px 4px darkgrey;
 			border-radius: 5px;
+		}
 	}
-}
+
 
 	/* Portrait tablet and small desktops */
 	@media (max-width: 940px) {
@@ -51,6 +52,7 @@ button{
 			.profileImgItem{
 				width: 285px;
 				padding-bottom: 30px;
+				margin: 0 auto;
 			}
 		}
 	}
@@ -61,4 +63,7 @@ button{
 
 	/* Landscape phones and down */
 	@media (max-width: 480px) {
+		.bioButton button{
+			text-align: center;
 	}
+}

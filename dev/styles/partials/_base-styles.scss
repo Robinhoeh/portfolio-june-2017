@@ -71,10 +71,19 @@ img{
 	width: 1600px;
 }
 .inner-wrapper{
-	// width: 1170px;
 	width: 91vw;
 	margin: 0 auto;
 }
+
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 768px) {
+    .inner-wrapper {
+	    width: 88vw;
+	    margin: 0 auto;
+	}
+}
+
+  
 .about-me-wrapper {
 	width: 91vw;
 	margin: 0 auto;
