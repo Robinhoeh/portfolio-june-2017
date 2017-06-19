@@ -63,11 +63,13 @@ form{
 input{
 	border: 1px solid $thirdColor;
 	padding: 5px;
+	box-shadow: 0 2px 7px darkgrey;
 }
 
 textarea{
 	height: 204px;
 	border: 1px solid $thirdColor;
+	box-shadow: 0 2px 7px darkgrey;
 }
 .sendEmailButton{
 	margin: 47px 0 123px 0;
