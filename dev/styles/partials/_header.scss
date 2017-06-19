@@ -1,21 +1,21 @@
 header{
 	height: 695px;
 	background: linear-gradient( rgba(0, 0, 0, 0.55), 
-    rgba(0, 0, 0, 0.45)),  url("/dev/assets/rsz_against-wall-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-position-x: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    box-shadow: 0 3px 7px darkgrey;
-    h1{
-        letter-spacing: 4px;
-    }
+	rgba(0, 0, 0, 0.45)),  url("/public/assets/rsz_against-wall-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-position-x: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	box-shadow: 0 3px 7px darkgrey;
+	h1{
+		letter-spacing: 4px;
+	}
 }
 header h2{
-    letter-spacing: 1px;
+	letter-spacing: 1px;
 }
 menu{
 	text-transform: uppercase;
@@ -24,28 +24,28 @@ menu{
 }
 .headerBox{
 	position: relative;
-    top: 380px;
+	top: 380px;
 }
-    /* Portrait tablet and small desktops */
-    @media (max-width: 801px) {
-        header{
-            height: 500px;
-            transition: .3s ease-in-out;
-        }
-        .headerBox{
-            top: 250px;
-        }
-    }
+	/* Portrait tablet and small desktops */
+	@media (max-width: 801px) {
+		header{
+			height: 500px;
+			transition: .3s ease-in-out;
+		}
+		.headerBox{
+			top: 250px;
+		}
+	}
 
-    /* Landscape phone to portrait tablet */
-    @media (max-width: 649px) {
-        header{
-            height: 300px;
-            transition: .3s ease-in-out;
-        }
-        .headerBox{
-            top: 150px;
-        }
-    }
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 649px) {
+		header{
+			height: 300px;
+			transition: .3s ease-in-out;
+		}
+		.headerBox{
+			top: 150px;
+		}
+	}
 
 
