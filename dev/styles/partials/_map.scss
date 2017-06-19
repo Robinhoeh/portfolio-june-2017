@@ -32,11 +32,7 @@ section.map{
 
 	/* Landscape phones and down */
 	@media (max-width: 480px) {
-		section.map .backgroundMapImage{
-			height: 150px;
-			transition: .3s ease-in-out;
-		}
-		section.map .sendEmailButton{
-			margin: 47px 0 70px 0;
+		section.map{
+			display: none;
 		}
 	}

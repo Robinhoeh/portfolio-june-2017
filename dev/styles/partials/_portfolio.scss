@@ -11,26 +11,32 @@ section.portfolioGallery{
 	flex-wrap: wrap;
 	.portImageOne, .portImageTwo, .portImageThree, .portImageFour {
 		background-repeat: no-repeat;
-		width: 50%;
+		width: 60%;
 		background-size: cover;
-		box-shadow: 2px 4px 7px darkgrey
+		img{
+			box-shadow: 2px 4px 7px darkgrey
 		}
 	}
+}
+
+.portInfoOne, .portInfoTwo, .portInfoThree, .portInfoFour{
+	padding: 0 10px;
+}
 
 .proj1Box, .proj2Box, .proj3Box, .proj4Box{
 	display: flex;
 	h2{
-		font-size: 30px;
+		font-size: 25px;
 	}
 }
 
 .portBox{
-	width: 50%;
+	width: 40%;
 	display: flex;
-	width: 50%;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 30px;
 	p{
 		padding-top: 20px;
 		text-align: center;
@@ -57,6 +63,9 @@ section.portfolioGallery{
 			width: 100%;
 			align-items: center;
 			padding-top: 20px;
+			h2{
+				font-size: 23px;
+			}
 		}
 		.portImageOne.portBox, .portImageTwo.portBox, .portImageThree.portBox, .portImageFour.portBox{
 			width: 100%;
@@ -81,7 +90,7 @@ section.portfolioGallery{
 	@media (max-width: 554px) {
 		.proj1Box, .proj2Box, .proj3Box, .proj4Box{
 			h2{
-				font-size: 20px;
+				font-size: 17px;
 			}
 		}
 	}

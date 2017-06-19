@@ -7,6 +7,15 @@ section.skills{
 		color: $secondaryColor;
 	}
 }
+.skills{
+	h3{
+		letter-spacing: 2px;
+		padding-top: 18px;
+	}
+}
+.iconItemOne{
+	padding-bottom: 22px;
+}
 
 .iconItemOne, .iconItemTwo{
 	display: flex;

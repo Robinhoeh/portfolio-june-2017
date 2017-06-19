@@ -9,6 +9,13 @@ header{
     display: flex;
     justify-content: center;
     text-align: center;
+    box-shadow: 0 3px 7px darkgrey;
+    h1{
+        letter-spacing: 4px;
+    }
+}
+header h2{
+    letter-spacing: 1px;
 }
 menu{
 	text-transform: uppercase;

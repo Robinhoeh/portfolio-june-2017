@@ -8,15 +8,22 @@ section.aboutMeBlurb{
 		width: 470px;
 		height: auto;
 		margin-right: 30px;
+		img{
+			box-shadow: 0 3px 7px darkgrey;
+		}
 	}
 }
 .blurbItemTwo{
 	width: 599px;
-	margin-right: 286px;
+	margin-right: 200px;
+	h2, h4 {
+		letter-spacing: 2px;
+	}
 }
 button{
 	width: 200px;
 	height: 47px;
+	margin-top: 20px;
 	background: $primaryColor;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -29,3 +36,29 @@ button{
 			border-radius: 5px;
 	}
 }
+
+	/* Portrait tablet and small desktops */
+	@media (max-width: 940px) {
+		.blurbItemTwo{
+			margin-right: 0;
+		}
+	}
+
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 768px) {
+		.blurbContainer{
+			flex-direction: column;
+			.profileImgItem{
+				width: 285px;
+				padding-bottom: 30px;
+			}
+		}
+	}
+		.blurbItemTwo{
+			flex-wrap: wrap;
+			width: 80%;
+		}
+
+	/* Landscape phones and down */
+	@media (max-width: 480px) {
+	}
