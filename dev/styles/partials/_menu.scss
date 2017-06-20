@@ -19,6 +19,12 @@ ul.menu{
 		}
 	}
 }
+ul.menu a{
+	color: $thirdColor;
+	text-decoration: none;
+	padding: 0 10px;
+	transition: .5s;
+}
 ul.menu li:last-child{
 	padding-right: 0;
 }

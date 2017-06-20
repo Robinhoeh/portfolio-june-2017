@@ -13,7 +13,7 @@
 
 	<div class="globalWrapper">
 	<!-- globalWrapper -->
-		<header>
+		<header id="top">
 			<div class="inner-wrapper">
 				<div class='headerBox'>
 					<h1>Robin Watson</h1>
@@ -26,16 +26,16 @@
 		<section class="navBar">
 			<div class="inner-wrapper">
 				<ul class="menu">
-					<li>about</li>
-					<li>portfolio</li>
-					<li>contact</li>
+					<a href="#about"><li>about</li></a>
+					<a href="#portfolio"><li>portfolio</li></a>
+					<a href="#contact"><li>contact</li></a>
 				</ul>
 			</div>
 		<!-- inner-wrapper -->
 		</section>
 
 		<section class="aboutMeBlurb">
-			<div class="about-me-wrapper">
+			<div class="about-me-wrapper"><a id="about">
 				<div class='sectionHeading'>
 					<h4 class='secondSectionHeadingFont'>about me</h4>
 					<h2 class='sectionHeadingFont'>Who am I?</h2>
@@ -146,7 +146,7 @@
 		<section class='portfolioGallery'>
 		<div class="inner-wrapper">
 			<div class='sectionHeading'>
-				<h4>portfolio</h4>
+				<h4 id="portfolio">portfolio</h4>
 				<h2>Check out my work</h2>
 			</div>
 
@@ -154,7 +154,7 @@
 
 				<div class='proj1Box'>
 					<div class="portImageOne portBox order1">
-						<a href="#">
+						<a href="/mojo-psd" target="_blank">
 							<img src="public/assets/proj2screen.png" alt="">
 						</a>
 					</div>
@@ -191,8 +191,8 @@
 					</div>
 
 					<div class="portImageTwo portBox order4">
-						<a href="#">
-							<img src="public/assets/proj3screen.png" target="_blank">
+						<a href="/prophesize-me" target="_blank">
+							<img src="public/assets/proj3screen.png">
 						</a>
 					</div>
 				</div>
@@ -200,7 +200,7 @@
 
 				<div class='proj3Box'>
 					<div class="portImageThree portBox order5">
-						<a href="#">
+						<a href="https://react-me-food-you-drinks.firebaseapp.com/" target="_blank">
 							<img src="public/assets/proj6screen.png" alt="">
 						</a>
 					</div>
@@ -243,7 +243,7 @@
 					</div>
 
 					<div class="portImageFour portBox order8">
-						<a href="#">
+						<a href="https://makeupteam.github.io/makeup-app/" target="_blank">
 							<img src="public/assets/proj5screen.png" alt="">
 						</a>
 					</div>
@@ -259,14 +259,14 @@
 		<section class="contact">
 			<div class="inner-wrapper">
 				<div class='sectionHeading'>
-					<h4>contact</h4>
+					<h4 id="contact">contact</h4>
 					<h2>get in touch with me</h2>
 				</div>
 				<div class="contactIconWrapper">
 					<div class="contactItems">
 						<i class="fa fa-home" aria-hidden="true"></i>
 						<hr class="miniYellowLine"></hr>
-						<a href="https://www.google.ca/maps/@43.6815359,-79.3713946,12z">
+						<a href="https://www.google.ca/maps/@43.6815359,-79.3713946,12z" target="_blank">
 							<p>Toronto, Canada</p>
 						</a>
 					</div>
@@ -291,23 +291,23 @@
 				<!-- contactIconWrapper -->
 				<div class="contactFormWrapper">
 
-				<form action="">
+				<form action="http://www.focuspocus.io/magic/f8332895b4c60b029fcf814e90b956ac" method="POST">
 
 					<div class="inputBox">
 
 						<div class="contactFormItem">
-							<label for="">Name</label>
-							<input type="text" placeholder="What's your full name?">
+							<label for="fullname">Name</label>
+							<input type="text" name="persons name" placeholder="What's your full name?" required="true" id="fullname">
 						</div>
 
 						<div class="contactFormItem">
-							<label for="">Email</label>
-							<input type="email" placeholder="What's your email?">
+							<label for="personemail">Email</label>
+							<input type="email" name="persons email" placeholder="What's your email?" required="true" id="personemail">
 						</div>
 
 						<div class="contactFormItem">
-							<label for="">Subject</label>
-							<input type="text" placeholder="What are you thinking?">
+							<label for="subjectofmsg">Subject</label>
+							<input type="text" name="subject" placeholder="What are you thinking?" required="true" id="subjectofmsg">
 						</div>
 
 					</div>
@@ -315,8 +315,8 @@
 
 					<div class="inputBoxTwo">
 
-						<div class="contactFormItem">
-							<textarea>Leave me a message!</textarea>
+						<div class="contactFormItem" name="textbox">
+							<textarea placeholder="Leave me a message!"></textarea>
 						</div>
 
 					</div>
@@ -325,17 +325,17 @@
 				<!-- contactFormWrapper -->
 
 					<div class="sendEmailButton">
-						<button>Send Message</button>
+						<button type="submit">Send Message</button>
 					</div>
 				</form>
-				
+				<!-- /form -->
 			</div>
 			<!-- inner-wrapper -->
 		</section>
 
 		<section class="map">
 			<div class="globalWrapper">
-				<a href="https://www.google.ca/maps/place/Toronto,+Ontario/@43.7184034,-79.5184864,11z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843">
+				<a href="https://www.google.ca/maps/place/Toronto,+Ontario/@43.7184034,-79.5184864,11z/data=!3m1!4b1!4m5!3m4!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843" target="_blank">
 					<div class="backgroundMapImage"></div>
 				</a>
 			</div>
@@ -343,21 +343,19 @@
 
 		<section class="footer">
 			<footer>
-				<a href="#">
-					<h3>Site by Robin Watson</h3>
-				</a>
+					<a href="#top">
+						<h3>Site by Robin Watson</h3>
+					</a>
 				<p>2017</p>
 
 				<div class="socialLinksContainer">
 					<ul>
-						<a href="https://github.com/Robinhoeh">
+						<a href="https://github.com/Robinhoeh" target="_blank">
 							<li><i class="devicon-github-plain"></i></li>
 						</a>
-
-						<a href="https://twitter.com/rdubcodes">
+						<a href="https://twitter.com/rdubcodes" target="_blank">
 							<li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
 						</a>
-
 					</ul>
 				</div>
 			</footer>
