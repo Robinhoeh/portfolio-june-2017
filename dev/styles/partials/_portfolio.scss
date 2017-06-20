@@ -25,6 +25,7 @@ section.portfolioGallery{
 
 .proj1Box, .proj2Box, .proj3Box, .proj4Box{
 	display: flex;
+	margin-bottom: 30px;
 	h2{
 		font-size: 25px;
 	}
@@ -34,24 +35,30 @@ section.portfolioGallery{
 	width: 40%;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: left;
 	padding-bottom: 30px;
+	margin: 0 15px;
 	p{
 		padding-top: 20px;
-		text-align: center;
+		text-align: left;
 	}
+}
+
+.buttonWrapper{
+	display: flex;
+	flex-direction: column;
 }
 
 .techUsed{
 	display:flex;
 	padding-top: 30px;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: flex-start;
 	p{
 		border: 2px solid $thirdColor;
 		padding: 3px 11px;
-		margin: 10px 14px;
+		margin: 10px 14px 0 0;
 		&:hover{
 			background: $primaryColor;
 			transition: .2s ease-in-out;
@@ -75,6 +82,7 @@ section.portfolioGallery{
 		.portImageOne.portBox, .portImageTwo.portBox, .portImageThree.portBox, .portImageFour.portBox{
 			width: 100%;
 			box-shadow: none;
+			align-items: center;
 		}
 		.portInfoOne.portBox, .portInfoTwo.portBox, .portInfoThree.portBox, .portInfoFour.portBox{
 			width: 70%;
@@ -86,7 +94,7 @@ section.portfolioGallery{
 		.order7{
 			order:2;
 		}
-	}
+}
 	
 	/* Landscape phone to portrait tablet */
 	@media (max-width: 554px) {
@@ -99,6 +107,9 @@ section.portfolioGallery{
 
 	/* Landscape phones and down */
 	@media (max-width: 480px) {
+			.portInfoOne.portBox, .portInfoTwo.portBox, .portInfoThree.portBox, .portInfoFour.portBox{
+				width: 100%;
+			}
 	}
 
 
