@@ -1,6 +1,6 @@
 section.map{
 	.backgroundMapImage{
-	background: url("/dev/assets/snazzy-image.png");
+	background: url("/public/assets/snazzy-image.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -9,7 +9,7 @@ section.map{
 	transition: .5s;
 	&:hover{
 		background: linear-gradient( rgba(0, 0, 0, 0.55), 
-	    rgba(0, 0, 0, 0.45)),  url("/dev/assets/streetcar.jpg");
+	    rgba(0, 0, 0, 0.45)),  url("/public/assets/streetcar.jpg");
 	    background-repeat: no-repeat;
 	    background-size: cover;
 	    transition: .5s;

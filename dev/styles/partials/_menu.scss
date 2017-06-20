@@ -34,6 +34,9 @@ ul.menu li:last-child{
 
 	/* Landscape phone to portrait tablet */
 	@media (max-width: 768px) {
+		ul.menu li{
+			padding-right: 18px;
+		}
 	}
 
 	/* Landscape phones and down */

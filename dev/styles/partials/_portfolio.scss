@@ -52,6 +52,11 @@ section.portfolioGallery{
 		border: 2px solid $thirdColor;
 		padding: 3px 11px;
 		margin: 10px 14px;
+		&:hover{
+			background: $primaryColor;
+			transition: .2s ease-in-out;
+			border: 2px solid white;
+		}
 	}
 }
 

@@ -16,6 +16,8 @@ header{
 }
 header h2{
 	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 35px;
 }
 menu{
 	text-transform: uppercase;
@@ -31,6 +33,9 @@ menu{
 		header{
 			height: 500px;
 			transition: .3s ease-in-out;
+			h2{
+				font-size: 26px;
+			}
 		}
 		.headerBox{
 			top: 250px;
@@ -42,6 +47,10 @@ menu{
 		header{
 			height: 300px;
 			transition: .3s ease-in-out;
+			h2{
+				font-size: 17px;
+				font-weight: 600;
+			}
 		}
 		.headerBox{
 			top: 150px;
