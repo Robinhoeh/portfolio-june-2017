@@ -20,6 +20,13 @@ section.aboutMeBlurb{
 		letter-spacing: 2px;
 	}
 }
+.blurbItemTwo p a{
+	color: $thirdColor;
+	text-decoration: none;
+}
+.blurbItemTwo p a:hover{
+	border-bottom: 1px solid $primaryColor;
+}
 button{
 	width: 200px;
 	height: 47px;

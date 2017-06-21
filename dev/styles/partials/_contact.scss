@@ -22,7 +22,7 @@ section.contact{
     	align-items: center;
     	flex-direction: column;
     	.fa{
-    		font-size: 36px;
+    		font-size: 50px;
     		color: $primaryColor;
     	}
     }
@@ -93,6 +93,10 @@ textarea{
 		}
 		.inputBoxTwo{
 			margin-top: 20px;
+		}
+		.contactIconWrapper .contactItems .fa{
+			font-size: 36px;
+			transition: .3s ease-in-out;
 		}
 	}
 

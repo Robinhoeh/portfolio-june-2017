@@ -36,7 +36,7 @@
 		</section>
 
 		<section class="aboutMeBlurb">
-			<div class="about-me-wrapper"><a id="about">
+			<div class="about-me-wrapper" id="about">
 				<div class='sectionHeading'>
 					<h4 class='secondSectionHeadingFont'>about me</h4>
 					<h2 class='sectionHeadingFont'>Who am I?</h2>
@@ -49,13 +49,13 @@
 					<div class="blurbItemTwo">
 						<h2 class='sectionHeadingFont'>Robin Watson</h2>
 						<h4 class='secondSectionHeadingFont'>Front-End Web Developer</h4>
-						<p>Hey! I ‘m Robin, a Front-End Web Developer based in Toronto. Prior to working in technology I was a musician, which gave me the opportunity to travel the world and made me really good at dealing with conflicts and stressful situations. I enjoy working on a team and collaborating with others to produce functional and accessible projects.
+						<p>Hey! I‘m Robin, a Front-End Web Developer based in Toronto. Prior to working in technology I was a musician. I am currently taking Wes Bos' <span><a href="https://javascript30.com/" target="_blank">#Javascript 30</a></span> to further my javascript skills. I enjoy working on a team and collaborating with others to produce functional and accessible projects.
 						</p>
-						<p>When I am not coding, you will find me playing and teaching the drums, trying to score goals in NHL on Playstation and attempting to finish the series Zoo on Netflix. I am really excited to learn about creating a database for a project Idea and furthering my javascript skills. 
-						</p>
-						<div class="bioButton">
+					<!-- 	<p>When I am not coding, you will find me playing and teaching the drums, trying to score goals in NHL on Playstation and attempting to finish the series Zoo on Netflix. I am really excited to learn about creating a database for a project Idea and furthering my javascript skills. 
+						</p> -->
+					<!-- 	<div class="bioButton">
 							<button>Download Resume</button>
-						</div>
+						</div> -->
 					</div>
 					<!-- blurbItemTwo -->
 				</div>
@@ -355,7 +355,7 @@
 				<p>2017</p>
 
 				<div class="socialLinksContainer">
-					<ul>
+					<!-- <ul>
 						<a href="https://github.com/Robinhoeh" target="_blank">
 							<li><i class="devicon-github-plain"></i></li>
 						</a>
@@ -363,11 +363,37 @@
 							<li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
 						</a>
 						<a href="https://www.linkedin.com/in/robin-watson-074aa345/" target="_blank">
+						<li>
 							<i class="fa fa-linkedin-square" aria-hidden="true"></i>
 						</a>
+						</li>
+						<li>
 						<a href="https://medium.com/@drumsrobin" target="_blank">
 							<i class="fa fa-medium" aria-hidden="true"></i>
+							</li>
 						</a>
+					</ul> -->
+					<ul class="links">
+						<li class="icon-cell">
+							<a href="#">
+								<i class="devicon-github-plain"></i>
+							</a>
+						</li>
+						<li class="icon-cell">
+							<a href="#">
+								<i class="fa fa-twitter-square" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="icon-cell">
+							<a href="#">
+								<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="icon-cell">
+							<a href="#">
+								<i class="fa fa-medium" aria-hidden="true"></i>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</footer>
@@ -380,7 +406,7 @@
 
 $(function() {
 	$('a').smoothScroll({
-		offset: 100,
+		offset: 0,
 		speed: 900,
 		easing: 'swing'
 	});			
