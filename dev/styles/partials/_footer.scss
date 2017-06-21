@@ -12,7 +12,7 @@ footer{
 	}
 }
 footer a{
-	color: $thirdColor;
+	text-decoration: none;
 }
 footer h3:hover{
 	color: $primaryColor;
@@ -32,7 +32,7 @@ footer h3:hover{
 		&:hover{
 			color: $secondaryColor;
 			transition: .3s;
-		}
+			}
 		}
 	}
 }

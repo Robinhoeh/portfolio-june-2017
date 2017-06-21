@@ -362,14 +362,31 @@
 						<a href="https://twitter.com/rdubcodes" target="_blank">
 							<li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
 						</a>
+						<a href="https://www.linkedin.com/in/robin-watson-074aa345/" target="_blank">
+							<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+						</a>
+						<a href="https://medium.com/@drumsrobin" target="_blank">
+							<i class="fa fa-medium" aria-hidden="true"></i>
+						</a>
 					</ul>
 				</div>
 			</footer>
 		</section>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="public/scripts/main.js"></script>
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
 	</div>
 	<!-- globalWrapper -->
+		<script>
+
+$(function() {
+	$('a').smoothScroll({
+		offset: 100,
+		speed: 900,
+		easing: 'swing'
+	});			
+});
+
+	</script>
 </body>
 </html>
+
