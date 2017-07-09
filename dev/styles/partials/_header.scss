@@ -22,7 +22,6 @@ header h2{
 menu{
 	text-transform: uppercase;
 	color: $thirdColor;
-	
 }
 .headerBox{
 	position: relative;
@@ -33,7 +32,7 @@ menu{
 }
 .overlay.menuBox{
 	display: block;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -95,6 +94,12 @@ menu{
 		cursor: pointer;
 		transition: 0.3s ease-in-out;
 		color: $primaryColor;
+		position: fixed;
+		top: 15px;
+		right: 15px;
+		z-index: 9999;
+		color: #96abd5;
+		text-shadow: 0 0px 1px darkgrey;
 	}
 	.hamburger:hover{
 		color: darkgrey;
@@ -117,9 +122,6 @@ menu{
 		display: flex;
 		justify-content: flex-end;
 	}
-	// .inner-wrapper ul.menu{
-	// 	display: none;
-	// }
 }
 
 
