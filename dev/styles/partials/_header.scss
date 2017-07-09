@@ -28,6 +28,36 @@ menu{
 	position: relative;
 	top: 380px;
 }
+.hamburger{
+	display: none;
+}
+.overlay.menuBox{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.89);
+}
+.overlay ul {
+	flex-direction: column;
+}
+.overlay ul a {
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+	padding: 30px;
+}
+.overlay .hamburger {
+	display: block;
+	font-size: 50px;
+	text-align: center;
+
+}
+
+/* Media Query */
+
 	/* Portrait tablet and small desktops */
 	@media (max-width: 801px) {
 		header{
@@ -56,5 +86,40 @@ menu{
 			top: 150px;
 		}
 	}
+
+	/*media Q */
+	@media all and (max-width: 500px) {
+	.hamburger {
+		display: block;
+		font-size: 25px;
+		cursor: pointer;
+		transition: 0.3s ease-in-out;
+		color: $primaryColor;
+	}
+	.hamburger:hover{
+		color: darkgrey;
+		transition: 0.3s ease-in-out;
+	}
+	.menuBox li {
+		padding: 35px 0;
+		color: white;
+	}
+	.menuBox ul.menu li{
+		text-shadow: none;
+	}
+	.menuBox .menu{
+		display: none;
+	}
+	.menuBox ul.show {
+		display: flex;
+	}
+	.inner-wrapper p{
+		display: flex;
+		justify-content: flex-end;
+	}
+	// .inner-wrapper ul.menu{
+	// 	display: none;
+	// }
+}
 
 
