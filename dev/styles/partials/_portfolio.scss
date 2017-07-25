@@ -9,7 +9,7 @@ section.portfolioGallery{
 	padding: 0 20px;
 	display: flex;
 	flex-wrap: wrap;
-	.portImageOne, .portImageTwo, .portImageThree, .portImageFour {
+	.portImageOne, .portImageTwo, .portImageThree, .portImageFour, .portImageFive {
 		background-repeat: no-repeat;
 		width: 60%;
 		background-size: cover;
@@ -19,11 +19,11 @@ section.portfolioGallery{
 	}
 }
 
-.portInfoOne, .portInfoTwo, .portInfoThree, .portInfoFour{
+.portInfoOne, .portInfoTwo, .portInfoThree, .portInfoFour, .portInfoFive{
 	padding: 0 10px;
 }
 
-.proj1Box, .proj2Box, .proj3Box, .proj4Box{
+.proj1Box, .proj2Box, .proj3Box, .proj4Box, .proj5Box{
 	display: flex;
 	margin-bottom: 30px;
 	h2{
@@ -70,7 +70,7 @@ section.portfolioGallery{
 	/* Portrait tablet and small desktops */
 
 	@media (max-width: 940px){
-		.proj1Box, .proj2Box, .proj3Box, .proj4Box{
+		.proj1Box, .proj2Box, .proj3Box, .proj4Box, .proj5Box{
 			flex-direction: column;
 			width: 100%;
 			align-items: center;
@@ -79,12 +79,12 @@ section.portfolioGallery{
 				font-size: 23px;
 			}
 		}
-		.portImageOne.portBox, .portImageTwo.portBox, .portImageThree.portBox, .portImageFour.portBox{
+		.portImageOne.portBox, .portImageTwo.portBox, .portImageThree.portBox, .portImageFour.portBox, .portImageFive.portBox{
 			width: 100%;
 			box-shadow: none;
 			align-items: center;
 		}
-		.portInfoOne.portBox, .portInfoTwo.portBox, .portInfoThree.portBox, .portInfoFour.portBox{
+		.portInfoOne.portBox, .portInfoTwo.portBox, .portInfoThree.portBox, .portInfoFour.portBox, .portInfoFive.portBox{
 			width: 70%;
 			padding-top: 40px;
 		}
@@ -94,11 +94,14 @@ section.portfolioGallery{
 		.order7{
 			order:2;
 		}
+		.order10{
+			order:3;
+		}
 }
 	
 	/* Landscape phone to portrait tablet */
 	@media (max-width: 554px) {
-		.proj1Box, .proj2Box, .proj3Box, .proj4Box{
+		.proj1Box, .proj2Box, .proj3Box, .proj4Box, .proj5Box{
 			h2{
 				font-size: 14px;
 			}
@@ -107,7 +110,7 @@ section.portfolioGallery{
 
 	/* Landscape phones and down */
 	@media (max-width: 480px) {
-			.portInfoOne.portBox, .portInfoTwo.portBox, .portInfoThree.portBox, .portInfoFour.portBox{
+			.portInfoOne.portBox, .portInfoTwo.portBox, .portInfoThree.portBox, .portInfoFour.portBox, .portInfoFive.portBox{
 				width: 100%;
 			}
 	}
